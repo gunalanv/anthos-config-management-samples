@@ -311,6 +311,7 @@ spec:
   selector:
     matchLabels:
       app: paymentservice
+  replicas: 1
   template:
     metadata:
       labels:
@@ -425,6 +426,7 @@ spec:
   selector:
     matchLabels:
       app: cartservice
+  replicas: 1
   template:
     metadata:
       labels:
